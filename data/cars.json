@@ -1,6 +1,6 @@
 [
-    {"name": "qora-jentra", "hex":"#000", "textColor": "#fff"},
-    {"name": "oq-cobalt", "hex": "#fff", "textColor": "#000"},
-    {"name": "qizil-malibu", "hex": "#FF0000", "textColor": "#fff"},
-    {"name": "sariq-jeep", "hex": "#FFFF33", "textColor": "#fff"}
+    {"name": "qora-jentra", "hex":"#000", "textColor": "#fff", "id": 1},
+    {"name": "oq-cobalt", "hex": "#fff", "textColor": "#000", "id": 2},
+    {"name": "qizil-malibu", "hex": "#FF0000", "textColor": "#fff", "id": 3},
+    {"name": "sariq-jeep", "hex": "#FFFF33", "textColor": "#fff", "id": 4}
 ]

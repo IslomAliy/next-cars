@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {Cars.map(car => (
-        <Link href={`${car.name}`}>
-          <h2 style={{cursor: 'pointer'}}> {car.name} </h2>
+        <Link href={`${car.name}` } key={car.id}  >
+          <h2 style={{cursor: 'pointer'}} > {car.name} </h2>
         </Link>
       ))}
     </div>

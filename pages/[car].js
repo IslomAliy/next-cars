@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Car({car}) {
     return <div style={{backgroundColor: car.hex, padding: 20}}> 
         <h1 style={{color: car.textColor}}> {car.name} </h1>
-        <Link href="/">
+        <Link href="/"passHref>
             <h4 style={{cursor: 'pointer'}}> Go home </h4>
         </Link>
     </div>
