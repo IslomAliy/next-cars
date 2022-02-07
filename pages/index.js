@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {Cars.map(car => (
-        <Link href={`${car.name}` } key={car.id}  >
+        <Link href={`${car.name}` } key={car.id}  passHref>
           <h2 style={{cursor: 'pointer'}} > {car.name} </h2>
         </Link>
       ))}
